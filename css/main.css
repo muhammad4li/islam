@@ -1,0 +1,288 @@
+html {
+    background-color: black;
+    color: blanchedalmond;
+    font: Sans-Serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(22, 21, 21);
+}
+
+
+#nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:rgb(0, 9, 61);
+}
+
+#nav ul li a {
+    float: left;
+    display: inline-block;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+}
+
+.active a {
+    background-color: rgb(19, 19, 170);
+}
+
+#nav ul li a:hover { 
+    background-color: wheat; 
+    color: black;
+}
+
+/*
+div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+
+div:nth-child(1) {
+    height: 600px; 
+    background-image: url(../res/banner_two.png);
+    background-attachment: fixed;
+} */
+/*
+#parallax {
+    width: 100%;
+    background-attachment: fixed;
+}
+
+#border {
+    width: 100%; 
+    height: 500px;
+    background-color: blanchedalmond;
+    position: relative;
+}
+*/
+.centered {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 54vh;
+    background-color: ivory;
+    background-image: url(../res/banner_two.png);
+    background-size: 100% 100%;
+}
+
+.centered h1 {
+    width: 400px;
+    font-size: 30px;
+    font-weight: 1200;
+    color: white;
+    text-align: center;
+}
+
+#content {
+    text-align: center;
+}
+
+body {
+    overflow: auto;
+}
+
+
+.socials .button {
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    margin: 0 5px;
+    overflow: hidden;
+    background: blue;
+    border-radius: 50px;
+    box-shadow: 0px 10px 10px rgba(255,255,255,0.15);
+    transition: all 0.3s ease-out;
+}
+.socials .button:hover{
+    width: 200px;
+}
+
+.socials .button .icon{
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    border-radius: 50px;
+    box-sizing: border-box;
+    line-height: 60px;
+    transition: all 0.3s ease-out;
+}
+
+.twitter:hover {
+    background-color: royalblue;
+}
+
+.youtube:hover {
+    background-color: red;
+}
+
+.github:hover {
+    background-color: #333;
+}
+
+.socials .button .icon i{
+    font-size: 25px;
+    line-height: 60px;
+    transition: all 0.3s ease-out;
+}
+.socials .button:hover .icon i{
+    color: #fff;
+}
+.socials .button span{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 60px;
+    margin-left: 10px;
+    transition: all 0.3s ease-out;
+}
+
+.socials .button span a {
+    color: white;
+    text-decoration: none;
+}
+
+.socials .button span a:hover {
+    color: burlywood;
+}
+
+.socials li {
+    display: inline-block;
+}
+
+#intro {
+    font-size: 50px;
+    align-items: center;
+}
+
+#intro #first {
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#intro #first a {
+    text-decoration: none;
+    color: white;   
+}
+#intro #first a:hover {
+    text-decoration: none;
+    color: burlywood;
+}
+
+#intro #second a {
+    text-decoration: none;
+    color: white;   
+}
+#intro #second a:hover {
+    text-decoration: none;
+    color: burlywood;
+}
+
+#intro #second {
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#intro h3 {
+    font-weight: 100;
+}
+
+#intro h3 a {
+    text-decoration: none;
+    color: white;
+}
+
+#intro h3 a:hover {
+    color: wheat;
+}
+
+
+
+
+footer {
+    padding-top: 20px;
+    padding-bottom: 40px;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(39, 37, 37);
+}
+
+footer p {
+    padding-left: 25px;
+}
+
+footer img {
+    padding-left: 45px;
+    width: 25px;
+    height: 25px;
+}
+
+
+#resources {
+    text-decoration: none;
+    list-style: none;
+}
+
+#resources li a {
+    color: white;
+    text-decoration: none;
+}
+
+#post {
+    margin-top: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    width: 50%;
+    border-radius: 20px;
+}
+
+#post:hover {
+    box-shadow: 0px 10px 10px rgba(116, 116, 116, 0.15);
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+#post img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75px;
+    height: 75px;
+}
+
+#post a {
+    text-decoration: none;
+    color: wheat;
+    font-size: 25px;
+}
+
+#post a:hover {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+
+#post {
+    background-color: rgb(48, 48, 48);
+}
+
+/*#pfp {
+    width: 25px;
+    height: 25px;
+}*/
+
